@@ -7,7 +7,8 @@
 
 body {
     background: url('https://firebasestorage.googleapis.com/v0/b/elfamosotexcoco-c1801.appspot.com/o/bg.png?alt=media&token=52d17b27-f11b-4b53-bc91-10ab5b28900a');
-    height: 50vh;
+    width: 100%;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,5 +26,6 @@ header h1 {
 }
 
 header img {
-    width: 50%;
+    width: 40%;
+    margin-top: 2em;
 }
