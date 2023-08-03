@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('https://firebasestorage.googleapis.com/v0/b/elfamosotexcoco-c1801.appspot.com/o/bg.png?alt=media&token=52d17b27-f11b-4b53-bc91-10ab5b28900a');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    display: none;
+}
+
+header img {
+    width: 50%;
+}
