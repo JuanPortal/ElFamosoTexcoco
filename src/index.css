@@ -38,10 +38,11 @@ header .info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: .4em;
 }
 
-header address, header a {
+header .info address, header .info a {
     display: flex;
     align-items: center;
     font-size: 1.4em;
@@ -52,7 +53,15 @@ header address, header a {
     color: #673824;
 }
 
-header a {
+header .info a {
     color: #000;
     text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 400px) {
+    header .info address, header .info a {
+        font-size: .8em;
+    }
 }
