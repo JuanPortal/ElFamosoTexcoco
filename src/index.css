@@ -14,6 +14,8 @@ body {
     background-repeat: no-repeat;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     flex-direction: column;
@@ -56,6 +58,56 @@ header .info address, header .info a {
 header .info a {
     color: #000;
     text-decoration: none;
+}
+
+/* MENU */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.dish {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff60;
+    width: 50%;
+    max-width: 500px;
+    border-radius: 30px;
+    padding: 1em 0;
+}
+
+.dish::after {
+    content: '$10';
+    position: absolute;
+    top: 8px;
+    right: 13px;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: #d2bea9;
+    background-color: rgb(215, 215, 93);
+    background-color: #ffffff60;
+    color: #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: .25em;
+    border-radius: 10px;
+}
+
+.dish-name {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.dish-img {
+    width: 9.5em;
 }
 
 /* RESPONSIVE */
