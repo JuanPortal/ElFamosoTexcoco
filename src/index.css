@@ -16,9 +16,13 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    /* background-color: red; */
+    gap: 1em;
+    font-weight: 500;
 }
 
 header h1 {
@@ -28,4 +32,14 @@ header h1 {
 header img {
     width: 40%;
     margin-top: 2em;
+}
+
+header address {
+    font-size: 1.4em;
+}
+
+header a {
+    font-size: 1.1em;
+    color: #000;
+    text-decoration: none;
 }
