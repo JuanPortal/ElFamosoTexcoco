@@ -79,6 +79,7 @@ header .info a {
     align-items: center;
     background-color: #ffffff60;
     width: 50%;
+    min-width: 330px;
     max-width: 500px;
     border-radius: 30px;
     padding: 1em 0;
@@ -91,8 +92,6 @@ header .info a {
     right: 13px;
     font-size: 2em;
     font-weight: 600;
-    background-color: #d2bea9;
-    background-color: rgb(215, 215, 93);
     background-color: #ffffff60;
     color: #000;
     border-top: 2px solid #000;
@@ -110,10 +109,19 @@ header .info a {
     width: 9.5em;
 }
 
+.dish-type {
+    text-align: center;
+    font-size: .9em;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 400px) {
     header .info address, header .info a {
         font-size: 1em;
+    }
+
+    .dish::after {
+        font-size: 1.3em;
     }
 }
