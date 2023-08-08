@@ -48,6 +48,7 @@ header .info address, header .info a {
     display: flex;
     align-items: center;
     font-size: 1.4em;
+    text-align: center;
     gap: .4em;
 }
 
@@ -117,7 +118,11 @@ header .info a {
 /* RESPONSIVE */
 
 @media screen and (max-width: 400px) {
-    header .info address, header .info a {
+    header .info address {
+        font-size: .85em;
+    }
+    
+    header .info a {
         font-size: 1em;
     }
 
