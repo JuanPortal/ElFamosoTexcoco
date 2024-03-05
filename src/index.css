@@ -124,7 +124,7 @@ footer a {
 
 @media screen and (max-width: 400px) {
     footer address {
-        font-size: .85em;
+        font-size: .75em;
     }
     
     footer a {
