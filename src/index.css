@@ -22,8 +22,6 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 1em;
-    font-weight: 500;
 }
 
 header h1 {
@@ -32,7 +30,7 @@ header h1 {
 
 header img {
     width: 40%;
-    margin-top: 2em;
+    margin: 2em 0;
 }
 
 /* MENU */
@@ -43,7 +41,6 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    margin: 2em 0;
 }
 
 .dish {
@@ -98,21 +95,22 @@ footer {
     align-items: center;
     text-align: center;
     gap: .4em;
-    padding: 30px 0;
+    margin: 2em 0 0 0;
+    padding: 2em 0;
     background-color: #000000ce;
 }
 
-footer address, header footer a {
+footer a {
     display: flex;
     align-items: center;
     font-size: 1.4em;
     text-align: center;
-    gap: .4em;
+    gap: .5em;
 }
 
 footer .footer-icon {
     color: #673824;
-    margin-right: 5px;
+    font-size: 1.2em;
 }
 
 footer a {
@@ -126,13 +124,9 @@ footer a {
     header img {
         width: 50%;
     }
-
-    footer address {
-        font-size: 1em;
-    }
     
     footer a {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .dish::after {
